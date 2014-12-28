@@ -1,0 +1,6 @@
+{
+ "type": "discovery",
+
+ "IP": "localhost",
+ "PORT": "9020",
+}

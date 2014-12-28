@@ -1,0 +1,51 @@
+
+#1 Primary Server
+{
+ "type": "backend",
+
+ "frontendIP": "localhost",
+ "fronendPort": "9000",
+
+ "discoverySend": "9002",
+ "discoveryReceive": "9003",
+ 
+ "backendIP": "localhost",
+ "backendPort": "9001",
+
+ "primaryIP": "localhost",
+ "primaryPort": "9003"
+}
+
+#2 Secondary Server
+{
+ "type": "backend",
+
+ "frontendIP": "localhost",
+ "fronendPort": "9000",
+
+ "discoverySend": "9005",
+ "discoveryReceive": "9006",
+ 
+ "backendIP": "localhost",
+ "backendPort": "9004",
+
+ "primaryIP": "localhost",
+ "primaryPort": "9003"
+}
+
+
+{
+ "type": "backend",
+
+ "frontendIP": "localhost",
+ "fronendPort": "9000",
+
+ "discoverySend": "9008",
+ "discoveryReceive": "9009",
+ 
+ "backendIP": "localhost",
+ "backendPort": "9007",
+
+ "primaryIP": "localhost",
+ "primaryPort": "9003"
+}

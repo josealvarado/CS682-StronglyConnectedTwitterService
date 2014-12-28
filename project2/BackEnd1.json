@@ -1,0 +1,18 @@
+{
+ "type": "backend",
+
+ "frontendIP": "localhost",
+ "fronendPort": "9000",
+
+ "discoverySend": "9002",
+ "discoveryReceive": "9003",
+ 
+ "backendIP": "localhost",
+ "backendPort": "9001",
+
+ "primaryIP": "localhost",
+ "primaryPort": "9003",
+
+ "discoveryIP": "localhost",
+ "discoveryPort": "9020"
+}

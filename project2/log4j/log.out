@@ -1,0 +1,1235 @@
+BackEndServer Waiting for request
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+FronEndServer Started
+FronEndServer Waiting for request
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+FronEndServer Waiting for request
+FrontEndServerProcessor started
+Request: POST /tweets HTTP/1.1
+Body: {"text": "#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+Connecting to BackEndServer with IP localhost PORT 9001
+Connected to BackEndServer with IP localhost PORT 9001
+BackEndServer Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 73
+Request: POST /tweets HTTP/1.1
+Body: 
+{"delay":null,"hashtags":["iphone"],"tweet":"#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+Connecting to Secondary ...
+Connected to Secondary with IP localhost PORT 9006
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 60
+Request: POST /tweets HTTP/1.1
+Body: 
+{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Secondary ...
+Connected to Secondary with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 60
+Request: POST /tweets HTTP/1.1
+Body: 
+{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":2}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+FrontEndServerProcessor Thread finished
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":3}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":4}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":5}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":6}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+BackEndServer Discovery Service Waiting for request
+BackEndServer Waiting for request
+Connecting to Discovery ...
+
+FrontEndServerProcessor IOException
+Error Message: Connection refused
+
+
+FrontEndServerProcessor Exception closing socket
+Error Message: null
+
+BackEndServer Waiting for request
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+FronEndServer Started
+FronEndServer Waiting for request
+Connecting to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9003,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 120
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":0,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"],["localhost","9009"]]}
+FronEndServer Waiting for request
+FrontEndServerProcessor started
+Request: POST /tweets HTTP/1.1
+Body: {"text": "#iphone is bending issues", "delay": "yes"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+Connecting to BackEndServer with IP localhost PORT 9001
+Connected to BackEndServer with IP localhost PORT 9001
+BackEndServer Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 74
+Request: POST /tweets HTTP/1.1
+Body: 
+{"delay":"yes","hashtags":["iphone"],"tweet":"#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+Connecting to Secondary ...
+Connected to Secondary with IP localhost PORT 9006
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 60
+Request: POST /tweets HTTP/1.1
+Body: 
+{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}
+Method: POST
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9003
+Connected to Primary Server with IP localhost PORT 9003
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9009","IP":"localhost","version":0}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+FrontEndServer RECEIVED: HTTP/1.1 200 OK
+FrontEndServer RECEIVED: Content-Length: 189
+FrontEndServerProcessor STOP READING
+BackEndServerProcessor finished
+FrontEndServerProcessor RECEIVED BODY {"data":[{"hashtags":["iphone"],"tweet":"#iphone is bending issues"}],"v":1,"message":"GET Correctly Formatted","statusCode":"200","secondaries":[["localhost","9006"],["localhost","9009"]]}
+FrontEndServerProcessor RECEIVED BODY 
+FrontEndServerProcessor Thread finished
+Connecting to Primary Server with IP localhost PORT 9003
+
+FrontEndServerProcessor IOException
+Error Message: Connection refused
+
+Connecting to Primary Server with IP localhost PORT 9003
+
+FrontEndServerProcessor IOException
+Error Message: Connection refused
+
+Connecting to Primary Server with IP localhost PORT 9003
+
+FrontEndServerProcessor IOException
+Error Message: Connection refused
+
+Connecting to Primary Server with IP localhost PORT 9003
+
+FrontEndServerProcessor IOException
+Error Message: Connection refused
+
+Connecting to Secondary ...
+Connected to Secondary with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /election HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 24
+Request: POST /election HTTP/1.1
+Body: 
+{"Version":1,"ID":9006}
+Method: POST
+URI: /election
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 Good Request
+FrontEndServer RECEIVED: Content-Length: 71
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"serverType":"PRIMARY","message":"ELECTION TIME!!","statusCode":"200"}
+Connecting to Secondary ...
+Connected to Secondary with IP localhost PORT 9006
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDPOST /election HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 24
+Request: POST /election HTTP/1.1
+Body: 
+{"Version":1,"ID":9009}
+Method: POST
+URI: /election
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 200 Good Request
+FrontEndServer RECEIVED: Content-Length: 73
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"serverType":"SECONDARY","message":"ELECTION TIME!!","statusCode":"200"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Sending keep alive to Primary Server ...
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
+Connecting to Primary Server with IP localhost PORT 9009
+Connected to Primary Server with IP localhost PORT 9009
+BackEndServer Discovery Service Waiting for request
+BackEndServerProcessor started
+BackEndServerProcessor RECEIVEDGET /tweets HTTP/1.1
+Sending keep alive to Primary Server ...
+BackEndServerProcessor RECEIVEDContent-Length: 45
+Request: GET /tweets HTTP/1.1
+Body: 
+{"PORT":"9006","IP":"localhost","version":1}
+Method: GET
+URI: /tweets
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 304 Not Modified
+FrontEndServer RECEIVED: Content-Length: 99
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"v":1,"message":"GET Correctly Formatted","statusCode":"304","secondaries":[["localhost","9006"]]}
+Connecting to Discovery ...
+Connected to Secondary with IP localhost PORT 9020
+BackEndServer Waiting for request
+DiscoveryServerProcessor  started
+DiscoveryServerProcessor RECEIVEDPOST /discovery HTTP/1.1
+DiscoveryServerProcessor RECEIVEDContent-Length: 31
+Request: POST /discovery HTTP/1.1
+Body: 
+{"PORT":9009,"IP":"localhost"}
+Method: POST
+URI: /discovery
+Version: HTTP/1.1
+BackEndServerProcessor finished
+FrontEndServer RECEIVED: HTTP/1.1 201 Created
+FrontEndServer RECEIVED: Content-Length: 84
+FrontEndServerProcessor STOP READING
+FrontEndServerProcessor RECEIVED BODY {"message":"POST Correctly formattted Created for valid request","statusCode":"201"}
